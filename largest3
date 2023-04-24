@@ -1,0 +1,20 @@
+def maximum(x, y, z):
+
+    if (x >= y) and (x >= z):
+
+        largest = x
+
+    elif (y >= x) and (y >= z):
+
+        largest = y
+
+    else:
+
+        largest = z
+
+    return largest   
+
+a=10
+b=20
+c=30
+maximum(a,b,c)
